@@ -3,6 +3,7 @@
 #include <iostream>
 #include "Triangle.h"
 #include "Rectangle.h"
+#include "Square.h"
 using namespace std;
 
 // Initialize object
@@ -45,6 +46,11 @@ void ShapeSelector::requestShape()
 		{
 			createdPyramid.createPyramid();
 		}
+		else if (shapeChoiceNum == 4)
+		{
+			createdSquare.createSquare();
+		}
+
 		// If the none of the shape number's were pressed then re ask the question
 		else
 		{
@@ -65,6 +71,7 @@ void ShapeSelector::shapeRequestQuestion()
 	cout << "1. Triangle" << endl;
 	cout << "2. Rectangle" << endl;
 	cout << "3. Pyramid" << endl;
+	cout << "4. Square" << endl;
 	cout << "Selection: ";
 	cin >> shapeChoiceNum;
 }

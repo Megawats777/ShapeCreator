@@ -3,7 +3,7 @@
 #include "Rectangle.h"
 #include "Triangle.h"
 #include "Pyramid.h"
-
+#include "Square.h"
 
 class ShapeSelector
 {
@@ -35,5 +35,6 @@ private:
 	Triangle createdTriangle;
 	Rectangle createdRectangle;
 	Pyramid createdPyramid;
+	Square createdSquare;
 };
 

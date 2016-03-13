@@ -15,17 +15,22 @@ public:
 	~Square();
 
 	// Ask the user for the dimensions of the sqaure
-
+	void requestDim();
 
 	// Create the square
+	void createSquare();
 
+	// Get the amount of stars
+	int getStars();
 
+	// Get the desired length of the square
+	int getDesiredLength();
 
 private:
 
 	// Shape Variables
 	int stars;
-	int lengths;
+	int desiredLength;
 
 	int exitNum;
 
