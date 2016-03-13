@@ -3,6 +3,7 @@
 #include <iostream>
 #include "Triangle.h"
 #include "Rectangle.h"
+#include "Pyramid.h"
 #include "Square.h"
 using namespace std;
 
