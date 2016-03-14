@@ -146,6 +146,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="HollowSquare.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Pyramid.cpp" />
     <ClCompile Include="Rectangle.cpp" />
@@ -154,6 +155,7 @@
     <ClCompile Include="Triangle.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="HollowSquare.h" />
     <ClInclude Include="Pyramid.h" />
     <ClInclude Include="Rectangle.h" />
     <ClInclude Include="ShapeSelector.h" />

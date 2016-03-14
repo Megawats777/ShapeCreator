@@ -51,6 +51,10 @@ void ShapeSelector::requestShape()
 		{
 			createdSquare.createSquare();
 		}
+		else if (shapeChoiceNum == 5)
+		{
+			createdHollowSquare.createHollowSquare();
+		}
 
 		// If the none of the shape number's were pressed then re ask the question
 		else
@@ -73,6 +77,7 @@ void ShapeSelector::shapeRequestQuestion()
 	cout << "2. Rectangle" << endl;
 	cout << "3. Pyramid" << endl;
 	cout << "4. Square" << endl;
+	cout << "5. Hollow Square" << endl;
 	cout << "Selection: ";
 	cin >> shapeChoiceNum;
 }
