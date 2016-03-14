@@ -56,10 +56,10 @@ void Pyramid::createPyramid()
 			createStars(getStars());
 
 			// Decrease the amount of spaces
-			spaces -= 2;
+			spaces -= 1;
 
 			// Increase the amount of stars
-			stars += 4;
+			stars += 2;
 
 			// Create a new line
 			cout << "" << endl;
