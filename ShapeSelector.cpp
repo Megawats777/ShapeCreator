@@ -56,6 +56,12 @@ void ShapeSelector::requestShape()
 			createdHollowSquare.createHollowSquare();
 		}
 
+		// If the user enters zero exit the program
+		else if (shapeChoiceNum == 0)
+		{
+			break;
+		}
+
 		// If the none of the shape number's were pressed then re ask the question
 		else
 		{
