@@ -1,10 +1,9 @@
+// The shape selector class
+
 #include "ShapeSelector.h"
 #include <string>
 #include <iostream>
-#include "Triangle.h"
-#include "Rectangle.h"
-#include "Pyramid.h"
-#include "Square.h"
+
 using namespace std;
 
 // Initialize object
@@ -56,6 +55,11 @@ void ShapeSelector::requestShape()
 			createdHollowSquare.createHollowSquare();
 		}
 
+		else if (shapeChoiceNum == 6)
+		{
+			createdStar.createStar();
+		}
+
 		// If the user enters zero exit the program
 		else if (shapeChoiceNum == 0)
 		{
@@ -84,6 +88,7 @@ void ShapeSelector::shapeRequestQuestion()
 	cout << "3. Pyramid" << endl;
 	cout << "4. Square" << endl;
 	cout << "5. Hollow Square" << endl;
+	cout << "6. Star" << endl;
 	cout << "Selection: ";
 	cin >> shapeChoiceNum;
 }

@@ -1,10 +1,13 @@
+// The shape selector class
+
 #pragma once
 #include <string>
-#include "Rectangle.h"
 #include "Triangle.h"
+#include "Rectangle.h"
 #include "Pyramid.h"
 #include "Square.h"
 #include "HollowSquare.h"
+#include "Star.h"
 
 class ShapeSelector
 {
@@ -38,5 +41,6 @@ private:
 	Pyramid createdPyramid;
 	Square createdSquare;
 	HollowSquare createdHollowSquare;
+	Star createdStar;
 };
 
