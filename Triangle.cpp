@@ -57,7 +57,7 @@ void Triangle::createTriangle()
 		cout << " " << endl;
 
 		// Ask the user if they want to exit
-		cout << "Press 0 to exit creating this shape: ";
+		cout << "Press 0 to exit creating this shape or press another number to continue creating this shape: ";
 		cin >> exitNum;
 	}
 

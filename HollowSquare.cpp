@@ -22,7 +22,6 @@ void HollowSquare::requestDim()
 	cout << "Please enter the desired length of the hollow square from 2 to 6: ";
 	cin >> desiredLength;
 	cout << "" << endl;
-
 }
 
 // Create the HollowSquare
@@ -77,7 +76,7 @@ void HollowSquare::createHollowSquare()
 
 		// Ask the user if they want to create more hollow squares
 		cout << "" << endl;
-		cout << "Press 0 to exit creating this shape: ";
+		cout << "Press 0 to exit creating this shape or press another number to create this shape again: ";
 		cin >> exitNum;
 		cout << "" << endl;
 	}
